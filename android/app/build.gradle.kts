@@ -39,6 +39,15 @@ android {
     }
 }
 
+val kotlinVersion = "1.8.22"
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlinVersion}")
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("io.flutter:flutter_embedding_android:2.0.0")
+}
+
 flutter {
     source = "../.."
 }
