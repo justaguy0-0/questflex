@@ -1,0 +1,44 @@
+name: questflex
+description: "questflex"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+
+  cupertino_icons: ^1.0.8
+
+  auto_hyphenating_text: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/avatars/
+    - assets/mascot/
+    - assets/icon/icon.png
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Light.ttf
+          weight: 300
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
